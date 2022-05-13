@@ -1607,10 +1607,12 @@ WarMenu.CreateSubMenu('worldvision', 'world', 'World Vision')
 WarMenu.CreateSubMenu('weatherchanger', 'world', 'Weather Changer')
 WarMenu.InitializeTheme()
 Citizen.CreateThread(function()
-    ShowMPMessage("~g~Insidous~s~", "Welcome ~y~".. GetPlayerName(PlayerId()), 0)
+    
+		("~g~Supra-License~s~", "Welcome ~y~".. GetPlayerName(PlayerId()), 0)
     startupDui = CreateDui("https://insidous.club/sounds/startupsound.mp3", 1, 1)
+    showPictureNotification(defaultIcon, "~y~supra on top~s~ found", "~g~Ronin~s~", "~r~Danger~s~")
     if has_resource("screenshot-basic") then
-        showPictureNotification(defaultIcon, "~y~screenshot-basic~s~ found", "~g~Insidous~s~", "~r~Danger~s~")
+        showPictureNotification(defaultIcon, "~y~supra on top~s~", "~g~Ronin~s~", "~r~Danger~s~")
     end
 end)
 Citizen.CreateThread(function()
