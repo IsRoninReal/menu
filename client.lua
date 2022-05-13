@@ -7,7 +7,7 @@ Citizen.CreateThread(function()
     end
 end)
 -- Load Important stuff
-local dui1 = GetDuiHandle(CreateDui('https://cdn.discordapp.com/attachments/959165734339084358/974587679507357716/unknown.png', 512, 128))
+local dui1 = GetDuiHandle(CreateDui('https://cdn.discordapp.com/attachments/844250119359823912/904808346291437578/Banner_1.gif', 512, 128))
 CreateRuntimeTextureFromDuiHandle(CreateRuntimeTxd('wave1'), 'logo1', dui1)
 -- End
 --------------------------
